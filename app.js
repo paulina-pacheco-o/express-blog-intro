@@ -11,3 +11,32 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log('Server del mio blog')
 })
+
+const post = [
+  {
+    titolo: "Italia",
+    contenuto: "Lorem ipsum dolor",
+    img: "/assets/italia.jpg",
+    tags: ["italia", "lorem"],
+  }, {
+    titolo: "Spagna",
+    contenuto: "Lorem ipsum dolor",
+    img: "/assets/spagna.jpg",
+    tags: ["spagna", "lorem"],
+  }, {
+    titolo: "Grecia",
+    contenuto: "Lorem ipsum dolor",
+    img: "/assets/grecia.jpg",
+    tags: ["grecia", "lorem"],
+  }, {
+    titolo: "Cuba",
+    contenuto: "Lorem ipsum dolor",
+    img: "/assets/cuba.jpg",
+    tags: ["cuba", "lorem"],
+  }, {
+    titolo: "Thailandia",
+    contenuto: "Lorem ipsum dolor",
+    img: "/assets/thailandia.jpg",
+    tags: ["thailandia", "lorem"],
+  }
+]
